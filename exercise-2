@@ -1,0 +1,41 @@
+//var x = 5
+//var y = 3
+//var z = (x%y)
+//console.log(z)
+//z < 1000
+//z % 3 || z % 5
+
+
+
+//var testNumber=3;
+//var multiple=testNumber%3;
+//console.log(multiple);
+
+//for (var number = 3; number < 1000; number++) {
+	//console.log(number);
+//}
+
+//for (var number = 5; number < 1000; number++) {
+	//console.log(number);
+//}
+var sum = 0;
+
+for (var a = 0; a<1000; a++){
+	if (a % 3 === 0){
+		sum = sum + a;
+
+}
+
+else if (a % 5 === 0){
+	sum = sum + a;
+
+	}
+}
+
+console.log(sum)
+
+
+Native Browser JavaScript
+
+233168
+   
