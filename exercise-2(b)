@@ -1,5 +1,5 @@
 
-for (var a = 0; a<100; a++){
+for (var a = 0; a<=100; a++){
 	// console.log(a);
 	if (a % 3 === 0 && a % 5 === 0 ){
 		 console.log("fizzbuzz");
